@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Sri Lanka</title>
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Wondering</h1>
+        <ul class="navlinks">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/tours.html">Tours</a></li>
+            <li><a href="./pages/about.html">About Us</a></li>
+            <li class="ctn"><a href="./pages/contact.html">Contact Us</a></li>
+        </ul>
+        <img src="./img/menu.png" alt="" class="menuBtn">
+    </nav>
+    <header>
+        <div class="headerContent">
+            <h2 class="headerTitle">Journey to the Land of Colors</h2>
+            <div class="line"></div>
+            <h1 class="headerDesc">Attractive Sri Lanka</h1>
+            <a href="#" class="ctn">Learn More....</a>
+            
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>For Campaigners</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/Hotel.jpg" alt="">
+                <h4>Booking Hotels</h4>
+                <p> Once you've found a campsite that you're happy with, you can make the booking online or by phone. Be sure to provide all of the necessary information, including credit card that you'll be using to pay for the stay.We'll make you Easier..</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/camp.jpg" alt="">
+                <h4>Camping</h4>
+                <p>Planning helps us stay safe, from learning about possible weather and wildlife risks in an area to knowing your physical and mental limits. Planning gives us time to seek out and listen to the information, advice, and warnings of park staff and experienced campers..</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="exploreContent">
+            <h1>Visit Central Side</h1>
+            <div class="line"></div>
+            <p>
+The Central Highlands of Sri Lanka are a rugged and mountainous region that covers about one-third of the island's land area. The highest mountains in Sri Lanka are located in this region, including Pidurutalagala (2,524 meters), the country's highest peak. The Central Highlands are also home to many important rivers, including the Mahaweli Ganga, which is the longest river in Sri Lanka</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <footer>
+        <p>Eravur,Batticaloa, Sri Lanka | phone: +94772030373 | email: msmarafath1@gmail.com </p>
+        <p>© 2023 All Rights Reserved</p>
+        <p>Design by Arafath MSM</p>
+    </footer>
+    <script>
+        const menuBtn = document.querySelector('.menuBtn');
+        const navLinks = document.querySelector('.navlinks');
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('mobileMenu')
+        })
+    </script>
+
+</body>
+
+</html>
